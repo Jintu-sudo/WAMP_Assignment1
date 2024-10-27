@@ -4,11 +4,8 @@ const Contributions = () => {
     return (
         <section>
             <h2>My Contributions</h2>
-            <p>I have contributed to society through:</p>
             <ul>
-                <li>Volunteering at [Organization]</li>
-                <li>Participating in [Community Service]</li>
-                <li>Organizing [Events/Workshops]</li>
+                <li>I have no contributions at the moment but I'll at the upcoming future.</li>
             </ul>
         </section>
     );

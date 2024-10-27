@@ -1,17 +1,20 @@
-// Hobbies.js
 import React from 'react';
 
-const Hobbies = () => {
+const Header = ({ toggleTheme, isDarkMode }) => {
     return (
-        <section>
-            <h2>My Hobbies</h2>
-            <ul>
-                <li>Reading books</li>
-                <li>Playing sports</li>
-                <li>Traveling</li>
-            </ul>
-        </section>
+        <header>
+            <h1>My Personal Webpage</h1>
+            <div className="switch">
+                <label>
+                    <input type="checkbox" onChange={toggleTheme} checked={isDarkMode} />
+                    <span className="slider"></span>
+                </label>
+                <div style={{ marginLeft: '10px', color: '#fff' }}> {/* Set text color to white */}
+                    Change Theme
+                </div>
+            </div>
+        </header>
     );
 };
 
-export default Hobbies;
+export default Header;

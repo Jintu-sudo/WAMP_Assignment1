@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section>
             <h2>About Me</h2>
-            <p>I am [Your Name], a passionate [Your Profession/Field]. I hail from [Your Native Village/Town].</p>
+            <p>I am Jintu Basumatary, a passionate Rookie Game Developer and a rookie 3d Artist. I hail from Assam, Guwahati.</p>
         </section>
     );
 };

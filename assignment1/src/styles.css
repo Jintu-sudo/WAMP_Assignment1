@@ -19,6 +19,9 @@ header {
     position: relative;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
     border-bottom: 3px solid #2980b9; /* Border to enhance the header */
+        background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+        padding: 20px;
+        border-bottom: 5px solid #fff; /* Add a bottom border */
 }
 
 header h1 {
@@ -74,13 +77,33 @@ input:checked + .slider:before {
 }
 
 section {
+    /* padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background 0.3s, color 0.3s;
+    color: #333;  */
+    
     padding: 20px;
     margin: 10px;
-    background: #fff; /* Default background for light mode */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
-    transition: background 0.3s, color 0.3s;
-    color: #333; /* Default text color */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    color: #333;
+}
+
+section h2 {
+    font-family: 'Arial', sans-serif; /* Different font */
+    font-size: 1.8em;
+    color: #2196F3; /* Color for headings */
+    margin-bottom: 10px;
+}
+
+
+section:hover {
+    transform: scale(1.02);
 }
 
 .dark-mode section {
@@ -90,13 +113,14 @@ section {
 
 footer {
     text-align: center;
-    padding: 10px;
-    background: #2c3e50; /* Dark footer background */
-    color: #ecf0f1; /* Light footer text */
     position: relative;
     bottom: 0;
     width: 100%;
     margin-top: 20px; /* Space above footer */
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    font-size: 1em;
 }
 
 .switch div {
@@ -146,3 +170,11 @@ section p, section h2 {
     background: #444; /* Dark background for list items in dark mode */
     color: #ecf0f1; /* Light text color for better visibility */
 }
+
+@media (max-width: 600px) {
+    section {
+        margin: 5px;
+        padding: 15px;
+    }
+}
+
