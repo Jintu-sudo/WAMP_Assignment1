@@ -1,15 +1,19 @@
 import React from 'react';
 
-const Education = () => {
-    return (
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li>I completed my schooling(10th) from Fairy Land High School, Khanapara. And 10+2 from Don Bosco School, Guwahati.</li>
-                <li>I'm currently a student Assam Downtown University studying Bachelor of Computer Appplicatio.</li>
-            </ul>
-        </section>
-    );
-};
+function Education() {
+  return (
+    <section>
+      <h2>Education</h2>
+      <p>I completed my 10th grade at Fairy Land High School, Khanapara, and studied 11th and 12th at Assam Don Bosco School, Guwahati.</p>
+      <p>I am currently studying for my Bachelor of Computer Applications (BCA) in the 3rd semester at Assam Down Town University.</p>
+      <p>Educational Qualifications:</p>
+      <ul>
+        <li>Bachelor of Computer Applications (Pursuing)</li>
+        <li>Coursera Certificates</li>
+        <li>Google Cloud Skill Boost Certificates</li>
+      </ul>
+    </section>
+  );
+}
 
 export default Education;

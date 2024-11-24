@@ -1,14 +1,12 @@
 import React from 'react';
 
-const Contributions = () => {
-    return (
-        <section>
-            <h2>My Contributions</h2>
-            <ul>
-                <li>I have no contributions at the moment but I'll at the upcoming future.</li>
-            </ul>
-        </section>
-    );
-};
+function Contributions() {
+  return (
+    <section>
+      <h2>Contributions to Society</h2>
+      <p>I have not made any contributions to society yet, but I look forward to engaging in community service and volunteer work in the future.</p>
+    </section>
+  );
+}
 
 export default Contributions;
